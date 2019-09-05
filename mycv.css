@@ -1,0 +1,150 @@
+h1{
+    background-color: white;
+    color: black;
+    text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 40px
+}
+img{
+    object-position: left; height: 170px; width: 140px;
+
+}
+body{
+    background-color: rgb(250, 198, 247);
+}
+h3{
+    background-color: black;
+    text-align: center; color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 16;
+    font-weight: normal;
+}
+h5{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   line-height: 1.5em;
+}
+
+.box-1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25;
+    font-weight: bold;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15
+}
+
+.box-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16; color: black;
+    font-weight: normal;
+}
+
+.box-3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16; color: black;
+    font-weight: normal;
+}
+
+.box-4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16; color: black;
+    font-weight: normal;
+}
+
+.box-5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16; color: black;
+    font-weight: normal;
+}
+
+.box-6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16; color: black;
+    font-weight: normal;
+}
+
+
+................................................................................................
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 317%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgb(7, 6, 1); 
+}
+
+.wrapper h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
